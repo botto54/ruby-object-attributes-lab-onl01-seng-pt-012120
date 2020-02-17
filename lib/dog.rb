@@ -14,8 +14,8 @@ class Dog
   
 end
 
-fido = Dog.new
-fido.instance_variable_set(:@name, "Fido")
+fido = Dog.new("Fido")
+# fido.instance_variable_set(:@name, "Fido")
 
 #   def name=(dogs_name)
 #     @this_dogs_name = dogs_name
