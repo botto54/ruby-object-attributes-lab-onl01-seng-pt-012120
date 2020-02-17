@@ -15,6 +15,9 @@ class Dog
   def breed
     @this_dogs_breed
   end
-  
-  
+
 end
+
+fido = Dog.new
+fido.name = "Fido"
+fido.breed = "Beagle"
