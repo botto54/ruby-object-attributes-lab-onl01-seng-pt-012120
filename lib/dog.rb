@@ -14,6 +14,7 @@ class Dog
   
 end
 
+fido = Dog.new
 fido.instance_variable_set(:@name, "Fido")
 
 #   def name=(dogs_name)
